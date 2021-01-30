@@ -1,5 +1,6 @@
+
 ---
-title: How to create a new blog
+title: How to start hexo && github
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -73,31 +74,29 @@ deploy:
 ```
 npm install hexo-deployer-git --save
 ```
-- last deploy to github   
+- last deploy to github
 ```
 hexo clean 
 hexo g 
-hexo d 
-```   
+hexo d  
+```
+refer:
 
-### Add CNAME if you want use self domain name   
-
+### Add CNAME if you want use self domain name
 ```bash
 $echo bridgeofdream.xyz > CNAME
 $git add ./
 $git commit ./
 $git push  
-```   
+```
+refer:
 
-### Change themes   
-
-- clone theme 'next'  
-
+### Change themes
+- clone theme 'next'
 ```bash
 $git clone https://github.com/theme-next/hexo-theme-next.git themes/next
-```  
-
-- config using 'next' theme  
+```
+- config using 'next' theme
 ```bash
 $vi _config.ym
 
@@ -105,7 +104,14 @@ $vi _config.ym
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-```   
+```
+
+
+### using son theme on primary theme
+
+refer: [support other theme](https://www.heson10.com/posts/46324.html)
+
+
 
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
