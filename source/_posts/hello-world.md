@@ -87,4 +87,23 @@ $git add ./
 $git commit ./
 $git push 
 ```
+
+### Change themes 
+- clone theme 'next'
+```bash
+$git clone https://github.com/theme-next/hexo-theme-next.git themes/next
+```
+- config using 'next' theme
+```bash
+$vi _config.ym
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next
+
+```
+
+
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
