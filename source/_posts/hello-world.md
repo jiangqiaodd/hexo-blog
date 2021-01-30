@@ -15,9 +15,9 @@ refer: https://nodejs.org/en/
 $npm install -g hexo-cli
 ```
 
-## Quick Start
+## Quick Start  
 
-### hexo-starter
+### hexo-starter  
 two choose:
 - from earlist(test)
 ```
@@ -27,9 +27,9 @@ $hexo init <folder>
 ```
 $git clone https://github.com/user-name/hexo-blog.git
 $npm install             (会根据配置安装 前端相关依赖)
-```
+```  
 
-### Create a new post
+### Create a new post  
 
 ``` bash
 $ hexo new "My New Post"
@@ -73,27 +73,31 @@ deploy:
 ```
 npm install hexo-deployer-git --save
 ```
-- last deploy to github
+- last deploy to github   
 ```
 hexo clean 
 hexo g 
-hexo d
-```
+hexo d 
+```   
 
-### Add CNAME if you want use self domain name
+### Add CNAME if you want use self domain name   
+
 ```bash
 $echo bridgeofdream.xyz > CNAME
 $git add ./
 $git commit ./
-$git push 
-```
+$git push  
+```   
 
-### Change themes 
-- clone theme 'next'
+### Change themes   
+
+- clone theme 'next'  
+
 ```bash
 $git clone https://github.com/theme-next/hexo-theme-next.git themes/next
-```
-- config using 'next' theme
+```  
+
+- config using 'next' theme  
 ```bash
 $vi _config.ym
 
@@ -101,8 +105,7 @@ $vi _config.ym
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
-```
+```   
 
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
