@@ -2,6 +2,7 @@
 ---
 title: How to start hexo && github
 ---
+This is a guide doc using hexo
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Preparation 
@@ -108,6 +109,19 @@ theme: next
 
 
 ### using son theme on primary theme
+- first copy son public files to primary source/son-themename/
+- second you should config skip son source
+```config
+skip_render:
+  - 'hexo-theme-sweetcloud/**'
+```
+- third you should config menu reword to son url
+```son-theme/config
+menu:
+  lover: /hexo-theme-sweetcloud/ || fa fa-hexo-theme-sweetcloud
+
+hexo-theme-sweetcloud is name of son theme
+```
 
 refer: [support other theme](https://www.heson10.com/posts/46324.html)
 
