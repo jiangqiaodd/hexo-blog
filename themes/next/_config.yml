@@ -124,7 +124,9 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  lover: /sweetcloud/ || fa fa-sweetcloud
+  lover: /sweetcloud/ || fa fa-cocktail
+#  copule: /couple/ || fa fa-arrow-alt-circle-left
+  lovedate: /lovedate/ || fa fa-arrow-alt-circle-up
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
