@@ -33,6 +33,7 @@ skip_render:
   - 'sweetcloud/**'
   - 'couple/**'
   - 'lovedate/**'
+  - 'matery/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts

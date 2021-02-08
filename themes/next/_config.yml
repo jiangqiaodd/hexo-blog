@@ -118,15 +118,15 @@ darkmode: false
 menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
+  tags: /tags/ || fa fa-tags
   #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  lover: /sweetcloud/ || fa fa-cocktail
-#  copule: /couple/ || fa fa-arrow-alt-circle-left
-  lovedate: /lovedate/ || fa fa-arrow-alt-circle-up
+  matery: /matery/ || fa fa-arrow-alt-circle-right
+#  lover: /sweetcloud/ || fa fa-cocktail
+#  lovedate: /lovedate/ || fa fa-arrow-alt-circle-up
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
